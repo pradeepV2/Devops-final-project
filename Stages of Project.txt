@@ -1,0 +1,46 @@
+----------------------------------------------------
+Scenario: - Existing App
+
+-> It is an existing project and the Application is already available and running in PRODUCTION
+-> Users already using the APP
+
+-> Client has requested to add features in the Existing APP
+-> Developer has completed his testing and pushed it to GITHUB
+-> DevOps Team should use the CODE from GITHUB and Use/create the INFRASTRUCTURE (AWS cloud components -> VPC, subnet, Gateway)
+
+------------------------------------------------------
+
+STEPS for IMPLEMENTAION: -
+
+STAGE -1 : -
+
+1. Create a VPC -> Subnet, Gateway, Security Groups 
+2. Create 3 UBUNTU EC2 Instances and make/create a Kubernetes Cluster
+One Master Node and Two Worker Nodes
+-> Create new Security Groups
+-> Earlier Minikube for creating a Cluster
+-> Now, we will use KubeADM for creating a cluster
+-> instance type should be t2.medium
+-> Created a Kubernetes Cluster using KubeADM 
+
+
+3. Create additionally 3 more Ec2 instances for the below
+-> SonarQube
+-> Nexus
+-> Jenkins
+
+---------------------------------------------------------------------
+Packages for creating a Kubernetes Cluster: -
+
+-> docker engine
+-> kubeadm
+-> Keys for connecting Kubernetes
+-> 
+
+
+
+
+
+
+
+

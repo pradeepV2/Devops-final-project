@@ -1,0 +1,55 @@
+1. What is the Project flow?
+
+-> Linux
+-> GitHub / Gitbash
+-> Jenkins
+-> Maven
+-> Integrated Development Environment (IntelliJ/MS VS Code/Eclipse)
+-> Dockers
+-> DockerHub
+-> Kubernetes (Cluster, Autoscaling, Auto Healing, PODS, Deployment, Service, Ingress)
+-> Ansible (Playbooks)
+-> Terraform
+-> AWS components (VPC, Subnet, Security Group, NAT Gateway)
+-> Prometheus
+-> Grafana
+-> SonarQube (Tool which will help us to find the code coverage, and vulnerability, identify bugs, and check code quality)
+-> Nexus (Artifact repository)
+-> 
+
+********* We do not USE all these 13 tools for implementing ONE project **********************
+
+Tools will be picked based on the Project Flow
+
+
+-> Real-time-Project
+E-commerce App
+Mobile APP
+Game App
+Real-time Analytics
+
+-> DevOps Engineer role is to deploy the application to PRODUCTION (Go-Live)
+
+
+Who is going to create the APP?
+-> A Developer will create an APP
+
+###############################################################################
+1. What is the Project flow?
+Project flow will decide the tools that we need to USE
+
+###############################################################################
+DEVELOPMENT PROJECT: -
+There are two types of Projects
+Scenario-1. Deploying an APP that is created from scratch
+There is no infrastructure or Project flow in place and we need to decide the flow from scratch
+
+MAINTAINANCE/SUPPORT/Enhancement PROJECT: -
+Scenario-2. Deploying an APP which is already running in PRODUCTION
+Users are already using the APP, but DEVELOPER will add new features to the existing APP 
+Make sure that there is no DOWNTIME at the deployment
+
+
+
+
+
